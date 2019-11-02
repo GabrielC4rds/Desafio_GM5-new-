@@ -5136,39 +5136,30 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_9___default.a {
       },
       __self: this
     }), __jsx("link", {
-      rel: "stylesheet",
-      type: "text/css",
-      href: "./static/myFolder/fonts/importFonts.css",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 46
-      },
-      __self: this
-    }), __jsx("link", {
       rel: "icon",
       href: "./static/favicon.png",
       sizes: "32x32",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51
+        lineNumber: 46
       },
       __self: this
     })), __jsx("body", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53
+        lineNumber: 48
       },
       __self: this
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_9__["Main"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54
+        lineNumber: 49
       },
       __self: this
     }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_9__["NextScript"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 55
+        lineNumber: 50
       },
       __self: this
     })));

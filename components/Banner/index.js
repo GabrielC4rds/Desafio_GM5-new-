@@ -9,6 +9,6 @@ const Main = styled.img`
 
 export default function index() {
     return (
-        <Main src="./static/myfolder/img/Banner.png"></Main>
+        <Main src="./static/img/Banner.png"></Main>
     );
 }

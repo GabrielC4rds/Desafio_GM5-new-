@@ -100,16 +100,16 @@ export default function MainFooter() {
             </ul>
             <SocialIcons>
               <a>
-                <img src="./static/myfolder/img/facebook_icon.png"/>
+                <img src="./static/img/facebook_icon.png"/>
               </a>
               <a>
-                <img src="./static/myfolder/img/instagram_icon.png"/>
+                <img src="./static/img/instagram_icon.png"/>
               </a>
               <a>
-                <img src="./static/myfolder/img/twitter_icon.png"/>
+                <img src="./static/img/twitter_icon.png"/>
               </a>
               <a>
-                <img src="./static/myfolder/img/linkedin_icon.png"/>
+                <img src="./static/img/linkedin_icon.png"/>
               </a>
               </SocialIcons>
               <ul>

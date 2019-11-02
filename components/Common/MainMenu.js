@@ -129,7 +129,7 @@ function MainMenu({ ScreenWidth, ScreenHeight }) {
   return (
     <MainMenuHolder>
       <MenuContent>
-        <img src="./static/myfolder/img/Logo.png" />
+        <img src="./static/img/Logo.png" />
         {ScreenDimensions.width <= 900 ? (
           <Dropdown overlay={menu} trigger={["click"]}>
             <a className="ant-dropdown-link" href="#">

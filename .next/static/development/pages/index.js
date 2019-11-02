@@ -23,7 +23,7 @@ var Main = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img.withCon
 })(["width:100%;height:auto;background:no-repeat;"]);
 function index() {
   return __jsx(Main, {
-    src: "./static/myfolder/img/Banner.png",
+    src: "./static/img/Banner.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -189,7 +189,7 @@ function MainFooter() {
     },
     __self: this
   }, __jsx("img", {
-    src: "./static/myfolder/img/facebook_icon.png",
+    src: "./static/img/facebook_icon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 103
@@ -202,7 +202,7 @@ function MainFooter() {
     },
     __self: this
   }, __jsx("img", {
-    src: "./static/myfolder/img/instagram_icon.png",
+    src: "./static/img/instagram_icon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 106
@@ -215,7 +215,7 @@ function MainFooter() {
     },
     __self: this
   }, __jsx("img", {
-    src: "./static/myfolder/img/twitter_icon.png",
+    src: "./static/img/twitter_icon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 109
@@ -228,7 +228,7 @@ function MainFooter() {
     },
     __self: this
   }, __jsx("img", {
-    src: "./static/myfolder/img/linkedin_icon.png",
+    src: "./static/img/linkedin_icon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 112
@@ -401,7 +401,7 @@ function MainMenu(_ref2) {
     },
     __self: this
   }, __jsx("img", {
-    src: "./static/myfolder/img/Logo.png",
+    src: "./static/img/Logo.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 132

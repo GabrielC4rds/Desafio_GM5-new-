@@ -43,11 +43,6 @@ export default class MyDocument extends Document {
             type="text/css"
             href="./static/fonts/importFonts.css"
           />
-          <link
-            rel="stylesheet"
-            type="text/css"
-            href="./static/myFolder/fonts/importFonts.css"
-          />
           <link rel="icon" href="./static/favicon.png" sizes="32x32" />
         </Head>
         <body>
