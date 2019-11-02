@@ -46,6 +46,11 @@ const Item = styled.div`
   align-items: center;
   height: 25%;
   width: 100%;
+  cursor: pointer;
+  transition .5s ease;
+   : hover{
+    transform: scale(1.1);
+  }
   p1{
       font-size: 23px;
       color: #0199b0;

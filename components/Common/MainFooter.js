@@ -87,6 +87,13 @@ const SocialIcons = styled.div`
   align-items: center;
   align-self: center;
   flex-direction: row;
+  img{
+
+    transition .5s ease;
+     : hover{
+      transform: scale(1.1);
+    }
+  }
   @media (max-width: 750px) {
     padding-left: 40px;
   }
@@ -120,13 +127,13 @@ export default function MainFooter() {
                 endereço
               </a1>
               <a>
-                asdasfjiasjfoa wdoasfoaska asfalsfka
+                nullam lacinia justo sit amet quam porta tempor
               </a>
               <a1>
                 contato
               </a1>
               <a>
-                safjasjf skflakfkasçf falasff
+                contato@gm5.com.br
               </a>
             </ul>
           </MainColumn>
@@ -171,7 +178,7 @@ export default function MainFooter() {
               </a1>
             </ul>
             <SocialIcons>
-              <a>
+              <a href="http://www.facebook.com/Gimme.High5/">
                 <img src="./static/img/facebook_icon.png"/>
               </a>
               <a>
