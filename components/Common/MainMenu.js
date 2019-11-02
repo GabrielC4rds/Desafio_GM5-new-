@@ -79,7 +79,7 @@ const MenuContent = styled.div`
     }
     .anticon {
       font-size: 28px !important;
-      color: #0e996d !important;
+      color: #2b2c2c !important;
     }
   }
 `;

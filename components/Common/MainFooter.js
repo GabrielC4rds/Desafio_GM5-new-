@@ -17,6 +17,8 @@ const FooterContent = styled.div`
   border-top: 2px solid #0199b0;
   @media (max-width: 750px) {
     flex-wrap: wrap;
+    max-width: 1000px;
+    align-items: center;
     justify-content: center;
   }
 `;
@@ -38,22 +40,56 @@ const MainColumn = styled.div`
       margin: 5px 0;
     }
     a1{
+      cursor: pointer;
       color: purple;
       margin: 5px 0;
+    }
+  }
+  @media (max-width: 750px) {
+    display: none;
+  }
+`;
+const MainColumnMobile = styled.div`
+  display: none;
+  @media (max-width: 750px) {
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 30px;
+    text-align: center;
+    justify-content: space-around;
+    ul{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items:  center;
+      a{
+        color: #282828;
+        margin: 5px 0;
+      }
+      a1{
+        color: purple;
+        margin: 5px 0;
+      }
     }
   }
 `;
 
 const SocialIcons = styled.div`
-  width: 50%;
+  width: 60%;
   height: 5vh;
+  margin: 0 0;
+  align-self: flex-start;
   display: flex;
-  margin: 0 35px;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-
+  align-self: center;
   flex-direction: row;
-
+  @media (max-width: 750px) {
+    padding-left: 40px;
+  }
 `;
 
 
@@ -116,6 +152,44 @@ export default function MainFooter() {
               <a>copyright 2019 - gm5 tecnologia</a>
               </ul>
           </MainColumn>
+          <MainColumnMobile>
+          <ul>
+              <a1>
+                endereço
+              </a1>
+              <a>
+                nullam lacinia justo sit amet quam porta tempor
+              </a>
+              <a1>
+                contato
+              </a1>
+              <a>
+                contato@gm5.com.br
+              </a>
+              <a1>
+                redes sociais
+              </a1>
+            </ul>
+            <SocialIcons>
+              <a>
+                <img src="./static/img/facebook_icon.png"/>
+              </a>
+              <a>
+                <img src="./static/img/instagram_icon.png"/>
+              </a>
+              <a>
+                <img src="./static/img/twitter_icon.png"/>
+              </a>
+              <a>
+                <img src="./static/img/linkedin_icon.png"/>
+              </a>
+              </SocialIcons>
+              <ul>
+              <a>copyright 2019 - gm5 tecnologia</a>
+              </ul>
+          </MainColumnMobile>
+          
+          
         </FooterContent>
       </MainFooterHolder>
     </div>

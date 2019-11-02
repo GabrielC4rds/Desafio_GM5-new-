@@ -9,6 +9,11 @@ const Main = styled.div`
 	height: 60vh;
 	display: flex;
 	justify-content: center;
+	@media (max-width: 750px) {
+		width: 100%;
+		height: 200vh;
+		flex-direction: column;
+	}
 `;
 
 export default function index() {

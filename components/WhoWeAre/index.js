@@ -3,24 +3,33 @@ import styled from "styled-components";
 
 const Main = styled.div`
   width: 100%;
-  height: 60vh;
+  height: 75vh;
   margin-top: 10vh;
   display: flex;
   align-itens: center;
   justify-content: center;
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
 `;
 
 const PhotoDiv = styled.div`
   width: 40%;
-  height: 80%;
+  height: 70%;
   background: #0199b0;
+  @media (max-width: 900px) {
+    align-self: center;
+    height: 100vh;
+
+    width: 85%;
+  }
 `;
 
 const DescriptionDiv = styled.div`
   width: 35%;
   height: 80%;
-  display: flex;
   padding: 25px 0;
+  display: flex;
   align-itens: center;
   justify-content: center;
   ul{
@@ -35,6 +44,9 @@ const DescriptionDiv = styled.div`
       text-align: justify;
       text-justify: auto;
     }
+  }
+  @media (max-width: 900px) {
+    width: 90%;
   }
 `;
 
