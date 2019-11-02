@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 const Main = styled.div`
   width: 100%;
-  height: 70vh;
-  margin: 10vh 0;
+  height: 60vh;
+  margin-top: 10vh;
   display: flex;
   align-itens: center;
   justify-content: center;
@@ -12,13 +12,13 @@ const Main = styled.div`
 
 const PhotoDiv = styled.div`
   width: 40%;
-  height: 70%;
+  height: 80%;
   background: #0199b0;
 `;
 
 const DescriptionDiv = styled.div`
   width: 35%;
-  height: 70%;
+  height: 80%;
   display: flex;
   padding: 25px 0;
   align-itens: center;

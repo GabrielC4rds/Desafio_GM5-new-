@@ -5039,7 +5039,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\GitHub-Projects\\gm5(new)\\gm5-teste\\pages\\_document.js";
+var _jsxFileName = "C:\\GitHub-Projects\\Desafio_GM5\\pages\\_document.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
 

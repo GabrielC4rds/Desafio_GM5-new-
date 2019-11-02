@@ -107,7 +107,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\GitHub-Projects\\gm5(new)\\gm5-teste\\components\\Banner\\index.js";
+var _jsxFileName = "C:\\GitHub-Projects\\Desafio_GM5\\components\\Banner\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -142,7 +142,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\GitHub-Projects\\gm5(new)\\gm5-teste\\components\\Common\\MainFooter.js";
+var _jsxFileName = "C:\\GitHub-Projects\\Desafio_GM5\\components\\Common\\MainFooter.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -379,7 +379,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\GitHub-Projects\\gm5(new)\\gm5-teste\\components\\Common\\MainMenu.js";
+var _jsxFileName = "C:\\GitHub-Projects\\Desafio_GM5\\components\\Common\\MainMenu.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 
 
@@ -592,6 +592,380 @@ function MainMenu({
 
 /***/ }),
 
+/***/ "./components/Links/index.js":
+/*!***********************************!*\
+  !*** ./components/Links/index.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return index; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\GitHub-Projects\\Desafio_GM5\\components\\Links\\index.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const Main = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "Links__Main",
+  componentId: "sc-1xiyu81-0"
+})(["height:100%;width:20%;padding:0 20px;"]);
+const Title = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "Links__Title",
+  componentId: "sc-1xiyu81-1"
+})(["height:20%;width:100%;P{font-size:30px;}"]);
+const List = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "Links__List",
+  componentId: "sc-1xiyu81-2"
+})(["height:70%;width:100%;"]);
+const Item = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "Links__Item",
+  componentId: "sc-1xiyu81-3"
+})(["border-bottom:1px solid #939393;display:flex;justify-content:flex-start;align-items:center;height:25%;width:100%;p1{font-size:23px;color:#0199b0;font-weight:bold;}p2{font-size:12px;color:#282828;margin-top:5px;margin-left:5px;}"]);
+function index() {
+  return __jsx(Main, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, __jsx(Title, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, "LINKS")), __jsx(List, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, __jsx(Item, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, __jsx("p1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, "1."), __jsx("p2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet")), __jsx(Item, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, __jsx("p1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, "2."), __jsx("p2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet")), __jsx(Item, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, __jsx("p1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, "3."), __jsx("p2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet")), __jsx(Item, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    },
+    __self: this
+  }, __jsx("p1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }, "4."), __jsx("p2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet"))));
+}
+
+/***/ }),
+
+/***/ "./components/OtherInformations/index.js":
+/*!***********************************************!*\
+  !*** ./components/OtherInformations/index.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return index; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _OurServices__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../OurServices */ "./components/OurServices/index.js");
+/* harmony import */ var _Links__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Links */ "./components/Links/index.js");
+var _jsxFileName = "C:\\GitHub-Projects\\Desafio_GM5\\components\\OtherInformations\\index.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+const Main = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "OtherInformations__Main",
+  componentId: "divjpp-0"
+})(["width:100%;height:60vh;display:flex;justify-content:center;"]);
+function index() {
+  return __jsx(Main, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, __jsx(_OurServices__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }), __jsx(_Links__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }));
+}
+
+/***/ }),
+
+/***/ "./components/OurServices/index.js":
+/*!*****************************************!*\
+  !*** ./components/OurServices/index.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return index; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\GitHub-Projects\\Desafio_GM5\\components\\OurServices\\index.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const Main = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "OurServices__Main",
+  componentId: "xf3luz-0"
+})(["height:100%;width:55%;display:flex;flex-direction:column;"]);
+const Title = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "OurServices__Title",
+  componentId: "xf3luz-1"
+})(["height:20%;width:100%;P{font-size:30px;}"]);
+const Blocks = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "OurServices__Blocks",
+  componentId: "xf3luz-2"
+})(["height:80%;width:100%;display:flex;flex-direction:row;justify-content:space-between;"]);
+const Block1 = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "OurServices__Block1",
+  componentId: "xf3luz-3"
+})(["width:30%;height:100%;"]);
+const PhotoBlock1 = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "OurServices__PhotoBlock1",
+  componentId: "xf3luz-4"
+})(["background:#592f83;width:70%;height:50%;"]);
+const PhotoBlock2 = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "OurServices__PhotoBlock2",
+  componentId: "xf3luz-5"
+})(["background:#f5a400;width:70%;height:50%;"]);
+const PhotoBlock3 = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "OurServices__PhotoBlock3",
+  componentId: "xf3luz-6"
+})(["background:#ec6534;width:70%;height:50%;"]);
+const BlockTexts = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "OurServices__BlockTexts",
+  componentId: "xf3luz-7"
+})(["width:100%;height:50%;padding:15px 0;display:flex;flex-direction:column;p1{margin:1px 0;font-size:15px;}p2{margin:1px 0;font-size:12px;}p3{margin:1px 0;font-size:10px;text-align:justify;text-justify:auto;}"]);
+function index() {
+  return __jsx(Main, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76
+    },
+    __self: this
+  }, __jsx(Title, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
+  }, "NOSSOS SERVI\xC7OS")), __jsx(Blocks, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: this
+  }, __jsx(Block1, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: this
+  }, __jsx(PhotoBlock1, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82
+    },
+    __self: this
+  }), __jsx(BlockTexts, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83
+    },
+    __self: this
+  }, __jsx("p1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    },
+    __self: this
+  }, "SITES"), __jsx("p2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet"), __jsx("p3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    },
+    __self: this
+  }, "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."))), __jsx(Block1, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91
+    },
+    __self: this
+  }, __jsx(PhotoBlock2, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }), __jsx(BlockTexts, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93
+    },
+    __self: this
+  }, __jsx("p1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94
+    },
+    __self: this
+  }, "SITES"), __jsx("p2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet"), __jsx("p3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
+    },
+    __self: this
+  }, "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."))), __jsx(Block1, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }, __jsx(PhotoBlock3, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102
+    },
+    __self: this
+  }), __jsx(BlockTexts, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103
+    },
+    __self: this
+  }, __jsx("p1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 104
+    },
+    __self: this
+  }, "SITES"), __jsx("p2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 105
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet"), __jsx("p3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 106
+    },
+    __self: this
+  }, "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.")))));
+}
+
+/***/ }),
+
 /***/ "./components/WhoWeAre/index.js":
 /*!**************************************!*\
   !*** ./components/WhoWeAre/index.js ***!
@@ -606,22 +980,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\GitHub-Projects\\gm5(new)\\gm5-teste\\components\\WhoWeAre\\index.js";
+var _jsxFileName = "C:\\GitHub-Projects\\Desafio_GM5\\components\\WhoWeAre\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const Main = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "WhoWeAre__Main",
   componentId: "ctd8j-0"
-})(["width:100%;height:70vh;margin:10vh 0;display:flex;align-itens:center;justify-content:center;"]);
+})(["width:100%;height:60vh;margin-top:10vh;display:flex;align-itens:center;justify-content:center;"]);
 const PhotoDiv = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "WhoWeAre__PhotoDiv",
   componentId: "ctd8j-1"
-})(["width:40%;height:70%;background:#0199b0;"]);
+})(["width:40%;height:80%;background:#0199b0;"]);
 const DescriptionDiv = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "WhoWeAre__DescriptionDiv",
   componentId: "ctd8j-2"
-})(["width:35%;height:70%;display:flex;padding:25px 0;align-itens:center;justify-content:center;ul{display:flex;flex-direction:column;li1{font-size:20px;}li2{margin-top:15px;text-align:justify;text-justify:auto;}}"]);
+})(["width:35%;height:80%;display:flex;padding:25px 0;align-itens:center;justify-content:center;ul{display:flex;flex-direction:column;li1{font-size:20px;}li2{margin-top:15px;text-align:justify;text-justify:auto;}}"]);
 function index() {
   return __jsx(Main, {
     __source: {
@@ -842,8 +1216,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _components_Banner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Banner */ "./components/Banner/index.js");
 /* harmony import */ var _components_WhoWeAre__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/WhoWeAre */ "./components/WhoWeAre/index.js");
-var _jsxFileName = "C:\\GitHub-Projects\\gm5(new)\\gm5-teste\\pages\\index.js";
+/* harmony import */ var _components_OtherInformations__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/OtherInformations */ "./components/OtherInformations/index.js");
+var _jsxFileName = "C:\\GitHub-Projects\\Desafio_GM5\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -854,31 +1230,37 @@ function index() {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 12
     },
     __self: this
   }, __jsx(_components_Common_MainMenu__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 13
     },
     __self: this
   }), __jsx(_components_Banner__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 14
     },
     __self: this
   }), __jsx(_components_WhoWeAre__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 15
+    },
+    __self: this
+  }), __jsx(_components_OtherInformations__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
     },
     __self: this
   }), __jsx(_components_Common_MainFooter__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 17
     },
     __self: this
   }));
@@ -893,7 +1275,7 @@ function index() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\GitHub-Projects\gm5(new)\gm5-teste\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\GitHub-Projects\Desafio_GM5\pages\index.js */"./pages/index.js");
 
 
 /***/ }),
