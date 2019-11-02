@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "yarn build && next export"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "antd": "^3.9.2",
+    "axios": "^0.19.0",
+    "babel-plugin-import": "^1.9.1",
+    "formik": "^2.0.3",
+    "next": "^9.1.1",
+    "next-fonts": "^0.19.0",
+    "null-loader": "2.0.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-sizes": "^2.0.0",
+    "styled-components": "^4.0.0",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.8.0"
+  },
+  "license": "ISC"
+}

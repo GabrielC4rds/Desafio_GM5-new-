@@ -1,0 +1,37 @@
+webpackHotUpdate("static\\development\\pages\\index.js",{
+
+/***/ "./components/WhoWeAre/index.js":
+/*!**************************************!*\
+  !*** ./components/WhoWeAre/index.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return index; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "C:\\GitHub-Projects\\gm5(new)\\gm5-teste\\components\\WhoWeAre\\index.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+var Main = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "WhoWeAre__Main",
+  componentId: "ctd8j-0"
+})(["width:50%;height:30vh;align-itens:center;align-self:center;background:green;"]);
+function index() {
+  return __jsx(Main, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  });
+}
+
+/***/ })
+
+})
+//# sourceMappingURL=index.js.917f8eac9fc007fe39aa.hot-update.js.map
