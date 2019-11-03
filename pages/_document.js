@@ -38,11 +38,11 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700|Open+Sans:600&display=swap"
             rel="stylesheet"
           />
-          <link
-            rel="stylesheet"
-            type="text/css"
-            href="./static/fonts/importFonts.css"
+          <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" 
+          rel="stylesheet"
           />
+
+          
           <link rel="icon" href="./static/favicon.png" sizes="32x32" />
         </Head>
         <body>

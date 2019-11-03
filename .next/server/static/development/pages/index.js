@@ -157,305 +157,304 @@ const FooterContent = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.d
 const MainColumn = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "MainFooter__MainColumn",
   componentId: "sc-17ao4m2-2"
-})(["width:20%;height:25vh;display:flex;flex-direction:column;margin:0 auto;align-items:flex-start;justify-content:center;ul{display:flex;flex-direction:column;justify-content:space-between;a{color:#282828;margin:5px 0;}a1{cursor:pointer;color:purple;margin:5px 0;}}@media (max-width:750px){display:none;}"]);
+})(["width:20%;height:25vh;display:flex;flex-direction:column;margin:0 auto;align-items:flex-start;justify-content:center;ul{display:flex;flex-direction:column;justify-content:space-between;a{color:#282828;margin:5px 0;font-family:Montserrat;font-weight:bold;}a1{cursor:pointer;color:purple;margin:5px 0;font-family:Montserrat;font-weight:bold;}}@media (max-width:750px){display:none;}"]);
 const MainColumnMobile = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "MainFooter__MainColumnMobile",
   componentId: "sc-17ao4m2-3"
-})(["display:none;@media (max-width:750px){display:flex;width:100%;height:40vh;flex-direction:column;align-items:center;padding-right:30px;text-align:center;justify-content:space-around;ul{display:flex;flex-direction:column;justify-content:space-between;align-items:center;a{color:#282828;margin:5px 0;}a1{color:purple;margin:5px 0;}}}"]);
+})(["display:none;@media (max-width:750px){display:flex;width:100%;height:40vh;flex-direction:column;align-items:center;padding-right:30px;text-align:center;justify-content:space-around;ul{display:flex;flex-direction:column;justify-content:space-between;align-items:center;a{color:#282828;margin:5px 0;font-family:Montserrat;font-weight:bold;}a1{color:purple;margin:5px 0;font-family:Montserrat;font-weight:bold;}}}"]);
 const SocialIcons = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "MainFooter__SocialIcons",
   componentId: "sc-17ao4m2-4"
-})(["width:60%;height:5vh;margin:0 0;align-self:flex-start;display:flex;justify-content:space-between;align-items:center;align-self:center;flex-direction:row;img{transition .5s ease;:hover{transform:scale(1.1);}}@media (max-width:750px){padding-left:40px;}"]);
+})(["width:60%;height:5vh;margin-bottom:5vh;align-self:flex-start;display:flex;justify-content:space-between;align-items:center;align-self:center;flex-direction:row;img{transition .5s ease;:hover{transform:scale(1.1);}}@media (max-width:750px){padding-left:40px;margin:0 0;}"]);
 function MainFooter() {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 114
     },
     __self: this
   }, __jsx(MainFooterHolder, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 115
     },
     __self: this
   }, __jsx(FooterContent, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 116
     },
     __self: this
   }, __jsx(MainColumn, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108
+      lineNumber: 117
     },
     __self: this
   }, __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
+      lineNumber: 118
     },
     __self: this
   }, __jsx("a1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 110
-    },
-    __self: this
-  }, "home"), __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 113
-    },
-    __self: this
-  }, "quem somos"), __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 116
-    },
-    __self: this
-  }, "servi\xE7os"), __jsx("a", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 119
     },
     __self: this
-  }, "contato"))), __jsx(MainColumn, {
+  }, "home"), __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124
+      lineNumber: 122
     },
     __self: this
-  }, __jsx("ul", {
+  }, "quem somos"), __jsx("a", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 125
     },
     __self: this
-  }, __jsx("a1", {
+  }, "servi\xE7os"), __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
+      lineNumber: 128
     },
     __self: this
-  }, "endere\xE7o"), __jsx("a", {
+  }, "contato"))), __jsx(MainColumn, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
-    },
-    __self: this
-  }, "nullam lacinia justo sit amet quam porta tempor"), __jsx("a1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 132
-    },
-    __self: this
-  }, "contato"), __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 135
-    },
-    __self: this
-  }, "contato@gm5.com.br"))), __jsx(MainColumn, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 140
+      lineNumber: 133
     },
     __self: this
   }, __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141
+      lineNumber: 134
     },
     __self: this
   }, __jsx("a1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142
+      lineNumber: 135
     },
     __self: this
-  }, "redes sociais")), __jsx(SocialIcons, {
+  }, "endere\xE7o"), __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 138
+    },
+    __self: this
+  }, "nullam lacinia justo sit amet quam porta tempor"), __jsx("a1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 141
+    },
+    __self: this
+  }, "contato"), __jsx("a", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 144
     },
     __self: this
-  }, __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 145
-    },
-    __self: this
-  }, __jsx("img", {
-    src: "./static/img/facebook_icon.png",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 146
-    },
-    __self: this
-  })), __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 148
-    },
-    __self: this
-  }, __jsx("img", {
-    src: "./static/img/instagram_icon.png",
+  }, "contato@gm5.com.br"))), __jsx(MainColumn, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 149
     },
     __self: this
-  })), __jsx("a", {
+  }, __jsx("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 150
+    },
+    __self: this
+  }, __jsx("a1", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 151
     },
     __self: this
-  }, __jsx("img", {
-    src: "./static/img/twitter_icon.png",
+  }, "redes sociais")), __jsx(SocialIcons, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152
+      lineNumber: 153
     },
     __self: this
-  })), __jsx("a", {
+  }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 154
     },
     __self: this
   }, __jsx("img", {
-    src: "./static/img/linkedin_icon.png",
+    src: "./static/img/facebook_icon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 155
     },
     __self: this
-  }))), __jsx("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 158
-    },
-    __self: this
-  }, __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 159
-    },
-    __self: this
-  }, "copyright 2019 - gm5 tecnologia"))), __jsx(MainColumnMobile, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 162
-    },
-    __self: this
-  }, __jsx("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 163
-    },
-    __self: this
-  }, __jsx("a1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 164
-    },
-    __self: this
-  }, "endere\xE7o"), __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 167
-    },
-    __self: this
-  }, "nullam lacinia justo sit amet quam porta tempor"), __jsx("a1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 170
-    },
-    __self: this
-  }, "contato"), __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 173
-    },
-    __self: this
-  }, "contato@gm5.com.br"), __jsx("a1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 176
-    },
-    __self: this
-  }, "redes sociais")), __jsx(SocialIcons, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 180
-    },
-    __self: this
-  }, __jsx("a", {
-    href: "http://www.facebook.com/Gimme.High5/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 181
-    },
-    __self: this
-  }, __jsx("img", {
-    src: "./static/img/facebook_icon.png",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 182
-    },
-    __self: this
   })), __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 184
+      lineNumber: 157
     },
     __self: this
   }, __jsx("img", {
     src: "./static/img/instagram_icon.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185
+      lineNumber: 158
     },
     __self: this
   })), __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 187
+      lineNumber: 160
     },
     __self: this
   }, __jsx("img", {
     src: "./static/img/twitter_icon.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 188
+      lineNumber: 161
     },
     __self: this
   })), __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 190
+      lineNumber: 163
     },
     __self: this
   }, __jsx("img", {
     src: "./static/img/linkedin_icon.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 191
+      lineNumber: 164
     },
     __self: this
   }))), __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 194
+      lineNumber: 167
     },
     __self: this
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 195
+      lineNumber: 168
+    },
+    __self: this
+  }, "copyright 2019 - gm5 tecnologia"))), __jsx(MainColumnMobile, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 171
+    },
+    __self: this
+  }, __jsx("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 172
+    },
+    __self: this
+  }, __jsx("a1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 173
+    },
+    __self: this
+  }, "endere\xE7o"), __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 176
+    },
+    __self: this
+  }, "nullam lacinia justo sit amet quam porta tempor"), __jsx("a1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 179
+    },
+    __self: this
+  }, "contato"), __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 182
+    },
+    __self: this
+  }, "contato@gm5.com.br"), __jsx("a1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 185
+    },
+    __self: this
+  }, "redes sociais")), __jsx(SocialIcons, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 189
+    },
+    __self: this
+  }, __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 190
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "./static/img/facebook_icon.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 191
+    },
+    __self: this
+  })), __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 193
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "./static/img/instagram_icon.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 194
+    },
+    __self: this
+  })), __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 196
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "./static/img/twitter_icon.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 197
+    },
+    __self: this
+  })), __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 199
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "./static/img/linkedin_icon.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 200
+    },
+    __self: this
+  }))), __jsx("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 203
+    },
+    __self: this
+  }, __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 204
     },
     __self: this
   }, "copyright 2019 - gm5 tecnologia"))))));
@@ -517,68 +516,64 @@ const MainMenuHolder = styled_components__WEBPACK_IMPORTED_MODULE_7___default.a.
 const MenuContent = styled_components__WEBPACK_IMPORTED_MODULE_7___default.a.div.withConfig({
   displayName: "MainMenu__MenuContent",
   componentId: "v496ik-1"
-})(["width:100%;padding:15px 15px;max-width:1250px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;img{width:100px;}ul{width:50%;display:flex;align-items:center;justify-content:space-between;list-style:none;margin-bottom:0px;}ul li a{color:#282828;text-decoration:none;:hover{color:#0199b0;}}ul li{margin-right:15px;text-transform:uppercase;font-size:14px;position:relative;cursor:pointer;font-family:\"Montserrat\",Montserrat-Medium !important;font-weight:bold;:after{content:\"\";width:0%;height:2px;background:#0e996d;transition:all 0.3s ease;position:absolute;left:50%;bottom:-6px;transform:translateX(-50%);}:last-child:after{display:none !important;}}@media (max-width:900px){.ant-dropdown,.ant-dropdown-menu{width:100vw !important;position:absolute !important;left:0 !important;top:80px !important;}.ant-dropdown-menu-item > a,.ant-dropdown-menu-submenu-title > a{font-size:18px !important;text-align:center !important;padding:10px 0 !important;font-family:\"Open Sans\",sans-serif !important;}.anticon{font-size:28px !important;color:#2b2c2c !important;}}"]);
-const AlreadyStudent = styled_components__WEBPACK_IMPORTED_MODULE_7___default.a.button.withConfig({
-  displayName: "MainMenu__AlreadyStudent",
-  componentId: "v496ik-2"
-})(["background:transparent;border:1px solid #000;border-radius:30px;padding:7px 30px;transition:all 0.4s ease;:hover{box-shadow:0px 9px 45px #0e996d40;color:#fff;cursor:pointer;}"]);
+})(["width:100%;padding:15px 15px;max-width:1250px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;img{width:100px;}ul{width:50%;display:flex;align-items:center;justify-content:space-between;list-style:none;margin-bottom:0px;}ul li a{color:#282828;font-size:13px;text-decoration:none;font-family:Montserrat;font-weight:bold;:hover{color:#0199b0;}}ul li{margin-right:15px;text-transform:uppercase;font-weight:bold;font-size:14px;position:relative;cursor:pointer;:after{content:\"\";width:0%;height:2px;background:#0e996d;transition:all 0.3s ease;position:absolute;left:50%;bottom:-6px;transform:translateX(-50%);}:last-child:after{display:none !important;}}@media (max-width:900px){.ant-dropdown,.ant-dropdown-menu{width:100vw !important;position:absolute !important;left:0 !important;top:80px !important;}.ant-dropdown-menu-item > a,.ant-dropdown-menu-submenu-title > a{font-size:18px !important;text-align:center !important;padding:10px 0 !important;font-family:\"Open Sans\",sans-serif !important;}.anticon{font-size:28px !important;color:#2b2c2c !important;}}"]);
 
 const menu = __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_5___default.a, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 101
+    lineNumber: 91
   },
   __self: undefined
 }, __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_5___default.a.Item, {
   key: "0",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 102
+    lineNumber: 92
   },
   __self: undefined
 }, __jsx("a", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 103
+    lineNumber: 93
   },
   __self: undefined
 }, "home")), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_5___default.a.Item, {
   key: "1",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 105
+    lineNumber: 95
   },
   __self: undefined
 }, __jsx("a", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 106
+    lineNumber: 96
   },
   __self: undefined
 }, "quem somos")), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_5___default.a.Item, {
   key: "2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 108
+    lineNumber: 98
   },
   __self: undefined
 }, __jsx("a", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 109
+    lineNumber: 99
   },
   __self: undefined
 }, "nossos servi\xE7os")), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_5___default.a.Item, {
   key: "3",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 113
+    lineNumber: 103
   },
   __self: undefined
 }, __jsx("a", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 114
+    lineNumber: 104
   },
   __self: undefined
 }, "contato")));
@@ -603,20 +598,20 @@ function MainMenu({
   return __jsx(MainMenuHolder, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130
+      lineNumber: 120
     },
     __self: this
   }, __jsx(MenuContent, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131
+      lineNumber: 121
     },
     __self: this
   }, __jsx("img", {
     src: "./static/img/Logo.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132
+      lineNumber: 122
     },
     __self: this
   }), ScreenDimensions.width <= 900 ? __jsx(antd_lib_dropdown__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -624,7 +619,7 @@ function MainMenu({
     trigger: ["click"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134
+      lineNumber: 124
     },
     __self: this
   }, __jsx("a", {
@@ -632,35 +627,59 @@ function MainMenu({
     href: "#",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135
+      lineNumber: 125
     },
     __self: this
   }, __jsx(antd_lib_icon__WEBPACK_IMPORTED_MODULE_3___default.a, {
     type: "menu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136
+      lineNumber: 126
     },
     __self: this
   }))) : __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140
+      lineNumber: 130
     },
     __self: this
   }, __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141
+      lineNumber: 131
     },
     __self: this
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142
+      lineNumber: 132
     },
     __self: this
   }, "home")), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 134
+    },
+    __self: this
+  }, __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 135
+    },
+    __self: this
+  }, "quem somos")), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 139
+    },
+    __self: this
+  }, __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 140
+    },
+    __self: this
+  }, "nossos servi\xE7os")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 144
@@ -672,37 +691,7 @@ function MainMenu({
       lineNumber: 145
     },
     __self: this
-  }, "quem somos")), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 149
-    },
-    __self: this
-  }, __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 150
-    },
-    __self: this
-  }, "nossos servi\xE7os")), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 154
-    },
-    __self: this
-  }, __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 155
-    },
-    __self: this
-  }, "contato")), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 159
-    },
-    __self: this
-  }))));
+  }, "contato")))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (react_sizes__WEBPACK_IMPORTED_MODULE_8___default()(mapSizesToProps)(MainMenu));
@@ -730,11 +719,11 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 const Main = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Links__Main",
   componentId: "sc-1xiyu81-0"
-})(["height:100%;width:20%;padding:0 20px;@media (max-width:900px){width:85%;height:100vh;flex-direction:column;display:flex;align-self:center;padding:0 0;}"]);
+})(["height:100%;width:20%;padding:0 20px;@media (max-width:900px){width:85%;height:100vh;flex-direction:column;display:flex;align-self:center;padding:0 0;}@media (max-width:375px){height:120vh;}"]);
 const Title = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Links__Title",
   componentId: "sc-1xiyu81-1"
-})(["height:20%;width:100%;P{font-size:30px;}@media (max-width:900px){height:20%;}"]);
+})(["height:20%;width:100%;P{font-size:30px;font-weight:900;font-family:'Montserrat';color:#282828;}@media (max-width:900px){height:20%;}"]);
 const List = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Links__List",
   componentId: "sc-1xiyu81-2"
@@ -742,102 +731,102 @@ const List = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withCo
 const Item = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Links__Item",
   componentId: "sc-1xiyu81-3"
-})(["border-bottom:1px solid #939393;display:flex;justify-content:flex-start;align-items:center;height:25%;width:100%;cursor:pointer;transition .5s ease;:hover{transform:scale(1.1);}p1{font-size:23px;color:#0199b0;font-weight:bold;}p2{font-size:12px;color:#282828;margin-top:5px;margin-left:5px;}@media (max-width:900px){padding:0 20px;height:20%;width:70%;display:flex;align-items:center;flex-direction:row;}"]);
+})(["border-bottom:1px solid #939393;display:flex;justify-content:flex-start;align-items:center;height:25%;width:100%;cursor:pointer;transition .5s ease;:hover{transform:scale(1.1);}p1{font-size:23px;color:#0199b0;font-weight:bold;font-family:Montserrat;font-weight:bold;}p2{font-size:12px;color:#282828;margin-top:5px;margin-left:5px;font-family:Montserrat;}@media (max-width:900px){padding:0 20px;height:20%;width:70%;display:flex;align-items:center;flex-direction:row;}"]);
 function index() {
   return __jsx(Main, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79
-    },
-    __self: this
-  }, __jsx(Title, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80
-    },
-    __self: this
-  }, __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80
-    },
-    __self: this
-  }, "LINKS")), __jsx(List, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81
-    },
-    __self: this
-  }, __jsx(Item, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 82
-    },
-    __self: this
-  }, __jsx("p1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 83
-    },
-    __self: this
-  }, "1."), __jsx("p2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84
-    },
-    __self: this
-  }, "Lorem ipsum dolor sit amet")), __jsx(Item, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 86
     },
     __self: this
-  }, __jsx("p1", {
+  }, __jsx(Title, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 87
     },
     __self: this
-  }, "2."), __jsx("p2", {
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 87
+    },
+    __self: this
+  }, "LINKS")), __jsx(List, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 88
     },
     __self: this
-  }, "Lorem ipsum dolor sit amet")), __jsx(Item, {
+  }, __jsx(Item, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, __jsx("p1", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 90
     },
     __self: this
-  }, __jsx("p1", {
+  }, "1."), __jsx("p2", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 91
     },
     __self: this
-  }, "3."), __jsx("p2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92
-    },
-    __self: this
   }, "Lorem ipsum dolor sit amet")), __jsx(Item, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 93
     },
     __self: this
   }, __jsx("p1", {
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 94
+    },
+    __self: this
+  }, "2."), __jsx("p2", {
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 95
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet")), __jsx(Item, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97
+    },
+    __self: this
+  }, __jsx("p1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98
+    },
+    __self: this
+  }, "3."), __jsx("p2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet")), __jsx(Item, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }, __jsx("p1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102
     },
     __self: this
   }, "4."), __jsx("p2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 103
     },
     __self: this
   }, "Lorem ipsum dolor sit amet"))));
@@ -870,24 +859,24 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 const Main = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "OtherInformations__Main",
   componentId: "divjpp-0"
-})(["width:100%;height:60vh;display:flex;justify-content:center;@media (max-width:750px){width:100%;height:200vh;flex-direction:column;}"]);
+})(["width:100%;height:60vh;display:flex;justify-content:center;@media (max-width:750px){width:100%;height:200vh;flex-direction:column;}@media (max-width:375px){height:260vh;}"]);
 function index() {
   return __jsx(Main, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 24
     },
     __self: this
   }, __jsx(_OurServices__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 25
     },
     __self: this
   }), __jsx(_Links__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 26
     },
     __self: this
   }));
@@ -920,15 +909,15 @@ const Main = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withCo
 const Title = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "OurServices__Title",
   componentId: "xf3luz-1"
-})(["height:20%;width:100%;P{font-size:30px;}@media (max-width:900px){height:10%;}"]);
+})(["height:20%;width:100%;P{font-size:30px;font-weight:900;font-family:'Montserrat';color:#282828;}@media (max-width:900px){height:10%;}"]);
 const Blocks = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "OurServices__Blocks",
   componentId: "xf3luz-2"
-})(["height:80%;width:100%;display:flex;flex-direction:row;justify-content:space-between;@media (max-width:900px){flex-direction:column;height:500vh;}"]);
+})(["height:80%;width:100%;display:flex;flex-direction:row;justify-content:space-between;@media (max-width:750px){flex-direction:column;height:500vh;}"]);
 const Block1 = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "OurServices__Block1",
   componentId: "xf3luz-3"
-})(["width:30%;height:100%;@media (max-width:900px){flex-direction:column;width:100%;}"]);
+})(["width:30%;height:100%;@media (max-width:900px){flex-direction:column;width:100%;}@media(max-width:375px){height:60vh;}"]);
 const PhotoBlock1 = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "OurServices__PhotoBlock1",
   componentId: "xf3luz-4"
@@ -944,138 +933,138 @@ const PhotoBlock3 = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div
 const BlockTexts = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "OurServices__BlockTexts",
   componentId: "xf3luz-7"
-})(["width:100%;height:50%;padding:15px 0;display:flex;flex-direction:column;p1{margin:1px 0;font-size:15px;}p2{margin:1px 0;font-size:12px;}p3{margin:1px 0;font-size:10px;text-align:justify;text-justify:auto;}@media (max-width:900px){align-items:center;height:20vh;p3{text-align:justify;text-align-last:center;}}"]);
+})(["width:100%;height:50%;padding:15px 0;display:flex;flex-direction:column;p1{margin:1px 0;font-size:15px;font-family:Montserrat;font-weight:bold;}p2{margin:1px 0;font-size:12px;}p3{margin:1px 0;font-size:10px;text-align:justify;text-justify:auto;font-weight:bold;font-family:Montserrat;}@media (max-width:900px){align-items:center;height:20vh;p3{text-align:justify;text-align-last:center;font-family:Montserrat;}}"]);
 function index() {
   return __jsx(Main, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120
+      lineNumber: 132
     },
     __self: this
   }, __jsx(Title, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121
+      lineNumber: 133
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122
+      lineNumber: 134
     },
     __self: this
   }, "NOSSOS SERVI\xC7OS")), __jsx(Blocks, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124
+      lineNumber: 136
     },
     __self: this
   }, __jsx(Block1, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125
+      lineNumber: 137
     },
     __self: this
   }, __jsx(PhotoBlock1, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
-    },
-    __self: this
-  }), __jsx(BlockTexts, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 127
-    },
-    __self: this
-  }, __jsx("p1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 128
-    },
-    __self: this
-  }, "SITES"), __jsx("p2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 129
-    },
-    __self: this
-  }, "Lorem ipsum dolor sit amet"), __jsx("p3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 130
-    },
-    __self: this
-  }, "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."))), __jsx(Block1, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 135
-    },
-    __self: this
-  }, __jsx(PhotoBlock2, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 136
-    },
-    __self: this
-  }), __jsx(BlockTexts, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 137
-    },
-    __self: this
-  }, __jsx("p1", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 138
     },
     __self: this
-  }, "APPS"), __jsx("p2", {
+  }), __jsx(BlockTexts, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 139
     },
     __self: this
-  }, "Lorem ipsum dolor sit amet"), __jsx("p3", {
+  }, __jsx("p1", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 140
     },
     __self: this
-  }, "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."))), __jsx(Block1, {
+  }, "SITES"), __jsx("p2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145
-    },
-    __self: this
-  }, __jsx(PhotoBlock3, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 146
-    },
-    __self: this
-  }), __jsx(BlockTexts, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 147
-    },
-    __self: this
-  }, __jsx("p1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 148
-    },
-    __self: this
-  }, "MKT DIGITAL"), __jsx("p2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 141
     },
     __self: this
   }, "Lorem ipsum dolor sit amet"), __jsx("p3", {
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 142
+    },
+    __self: this
+  }, "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."))), __jsx(Block1, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 147
+    },
+    __self: this
+  }, __jsx(PhotoBlock2, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 148
+    },
+    __self: this
+  }), __jsx(BlockTexts, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 149
+    },
+    __self: this
+  }, __jsx("p1", {
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 150
+    },
+    __self: this
+  }, "APPS"), __jsx("p2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 151
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet"), __jsx("p3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 152
+    },
+    __self: this
+  }, "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."))), __jsx(Block1, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 157
+    },
+    __self: this
+  }, __jsx(PhotoBlock3, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 158
+    },
+    __self: this
+  }), __jsx(BlockTexts, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 159
+    },
+    __self: this
+  }, __jsx("p1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 160
+    },
+    __self: this
+  }, "MKT DIGITAL"), __jsx("p2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 161
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet"), __jsx("p3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 162
     },
     __self: this
   }, "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.")))));
@@ -1104,7 +1093,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 const Main = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "WhoWeAre__Main",
   componentId: "ctd8j-0"
-})(["width:100%;height:75vh;margin-top:10vh;display:flex;align-itens:center;justify-content:center;@media (max-width:900px){flex-direction:column;}"]);
+})(["width:100%;height:75vh;margin-top:10vh;display:flex;align-itens:center;justify-content:center;@media (max-width:900px){flex-direction:column;}@media (max-width:375px){height:120vh;}"]);
 const PhotoDiv = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "WhoWeAre__PhotoDiv",
   componentId: "ctd8j-1"
@@ -1112,42 +1101,42 @@ const PhotoDiv = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.wi
 const DescriptionDiv = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "WhoWeAre__DescriptionDiv",
   componentId: "ctd8j-2"
-})(["width:35%;height:80%;padding:25px 0;display:flex;align-itens:center;justify-content:center;ul{display:flex;flex-direction:column;li1{font-size:20px;}li2{margin-top:15px;text-align:justify;text-justify:auto;}}@media (max-width:900px){width:90%;}"]);
+})(["width:35%;height:80%;padding:25px 0;display:flex;align-itens:center;justify-content:center;ul{display:flex;flex-direction:column;p{font-size:30px;font-weight:900;font-family:'Montserrat';color:#282828;}li2{text-align:justify;text-justify:auto;}}@media (max-width:900px){width:90%;}"]);
 function index() {
   return __jsx(Main, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57
-    },
-    __self: this
-  }, __jsx(PhotoDiv, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: this
-  }), __jsx(DescriptionDiv, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }, __jsx("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60
-    },
-    __self: this
-  }, __jsx("li1", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 61
     },
     __self: this
-  }, "Quem Somos"), __jsx("li2", {
+  }, __jsx(PhotoDiv, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 62
+    },
+    __self: this
+  }), __jsx(DescriptionDiv, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, __jsx("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
+  }, "Quem Somos"), __jsx("li2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66
     },
     __self: this
   }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacinia justo sit amet quam porta tempor. Etiam eros sem, mollis eget risus eget, viverra gravida orci. Sed non arcu id nulla fringilla ultricies. Ut aliquet convallis cursus. Pellentesque tincidunt, libero ut volutpat gravida, tellus velit porta lacus, vitae pellentesque urna erat ac eros. In quis ante fermentum, ullamcorper velit ut, viverra risus. Cras volutpat justo tellus, in convallis augue sodales at. Cras varius semper metus laoreet aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus luctus convallis metus. Cras et elit eu diam rutrum iaculis. Morbi malesuada efficitur justo a tincidunt."))));

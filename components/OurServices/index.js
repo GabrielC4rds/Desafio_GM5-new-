@@ -18,7 +18,10 @@ const Title = styled.div`
     height: 20%;
     width: 100%;
     P{
-        font-size: 30px;
+      font-size: 30px;
+      font-weight: 900;
+      font-family: 'Montserrat';
+      color: #282828;
     }
     @media (max-width: 900px) {
       height: 10%;
@@ -32,7 +35,7 @@ const Blocks = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    @media (max-width: 900px) {
+    @media (max-width: 750px) {
       flex-direction: column;
       height: 500vh;
     }
@@ -44,6 +47,9 @@ const Block1 = styled.div`
   @media (max-width: 900px) {
     flex-direction: column;
     width: 100%;
+  }
+  @media(max-width: 375px) {
+    height: 60vh;
   }
 `;
 
@@ -92,6 +98,9 @@ const BlockTexts = styled.div`
     p1{
       margin: 1px 0;
       font-size: 15px;
+      font-family: Montserrat;
+      font-weight: bold;
+
     }
     p2{
       margin: 1px 0;
@@ -103,6 +112,8 @@ const BlockTexts = styled.div`
       font-size: 10px;
       text-align: justify;
       text-justify: auto;
+      font-weight: bold;
+      font-family: Montserrat;
     }
     @media (max-width: 900px) {
       align-items: center;
@@ -111,6 +122,7 @@ const BlockTexts = styled.div`
       p3{
         text-align: justify;
         text-align-last: center;
+        font-family: Montserrat;
       }
     }
 `;

@@ -5127,9 +5127,8 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_9___default.a {
       },
       __self: this
     }), __jsx("link", {
+      href: "https://fonts.googleapis.com/css?family=Montserrat&display=swap",
       rel: "stylesheet",
-      type: "text/css",
-      href: "./static/fonts/importFonts.css",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 41

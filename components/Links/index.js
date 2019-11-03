@@ -13,6 +13,9 @@ const Main = styled.div`
     align-self: center;
     padding: 0 0;
   }
+  @media (max-width: 375px){
+    height: 120vh;
+  }
 `;
 
 const Title = styled.div`
@@ -20,6 +23,9 @@ const Title = styled.div`
   width: 100%;
   P{
       font-size: 30px;
+      font-weight: 900;
+      font-family: 'Montserrat';
+      color: #282828;
   }
   @media (max-width: 900px) {
     height: 20%;
@@ -55,12 +61,15 @@ const Item = styled.div`
       font-size: 23px;
       color: #0199b0;
       font-weight: bold;
+      font-family: Montserrat;
+      font-weight: bold;
   }  
   p2{
       font-size: 12px;
       color: #282828;
       margin-top: 5px;
       margin-left: 5px;
+      font-family: Montserrat;
   } 
   @media (max-width: 900px) {
     padding: 0 20px;
@@ -69,8 +78,6 @@ const Item = styled.div`
     display: flex;
     align-items: center;
     flex-direction: row;
-   
-
   }
 `;
 

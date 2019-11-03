@@ -38,11 +38,15 @@ const MainColumn = styled.div`
     a{
       color: #282828;
       margin: 5px 0;
+      font-family: Montserrat;
+      font-weight: bold;
     }
     a1{
       cursor: pointer;
       color: purple;
       margin: 5px 0;
+      font-family: Montserrat;
+      font-weight: bold;
     }
   }
   @media (max-width: 750px) {
@@ -68,10 +72,14 @@ const MainColumnMobile = styled.div`
       a{
         color: #282828;
         margin: 5px 0;
+        font-family: Montserrat;
+        font-weight: bold;
       }
       a1{
         color: purple;
         margin: 5px 0;
+        font-family: Montserrat;
+        font-weight: bold;
       }
     }
   }
@@ -80,7 +88,7 @@ const MainColumnMobile = styled.div`
 const SocialIcons = styled.div`
   width: 60%;
   height: 5vh;
-  margin: 0 0;
+  margin-bottom: 5vh;
   align-self: flex-start;
   display: flex;
   justify-content: space-between;
@@ -96,6 +104,7 @@ const SocialIcons = styled.div`
   }
   @media (max-width: 750px) {
     padding-left: 40px;
+    margin: 0 0;
   }
 `;
 
@@ -178,7 +187,7 @@ export default function MainFooter() {
               </a1>
             </ul>
             <SocialIcons>
-              <a href="http://www.facebook.com/Gimme.High5/">
+              <a>
                 <img src="./static/img/facebook_icon.png"/>
               </a>
               <a>
@@ -195,8 +204,6 @@ export default function MainFooter() {
               <a>copyright 2019 - gm5 tecnologia</a>
               </ul>
           </MainColumnMobile>
-          
-          
         </FooterContent>
       </MainFooterHolder>
     </div>

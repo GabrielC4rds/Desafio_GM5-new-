@@ -14,6 +14,9 @@ const Main = styled.div`
 		height: 200vh;
 		flex-direction: column;
 	}
+	@media (max-width: 375px){
+		height: 260vh;
+	}
 `;
 
 export default function index() {

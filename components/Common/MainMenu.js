@@ -30,11 +30,15 @@ const MenuContent = styled.div`
     justify-content: space-between;
     list-style: none;
     margin-bottom: 0px;
+
   }
+
   ul li a{
     color: #282828;
+    font-size: 13px;
     text-decoration: none;
-
+    font-family: Montserrat;
+    font-weight: bold;
     :hover{
       color: #0199b0;
     }
@@ -42,11 +46,10 @@ const MenuContent = styled.div`
   ul li {
     margin-right: 15px;
     text-transform: uppercase;
+    font-weight: bold;
     font-size: 14px;
     position: relative;
     cursor: pointer;
-    font-family: "Montserrat", Montserrat-Medium !important;
-    font-weight: bold;
     :after {
       content: "";
       width: 0%;
@@ -81,19 +84,6 @@ const MenuContent = styled.div`
       font-size: 28px !important;
       color: #2b2c2c !important;
     }
-  }
-`;
-
-const AlreadyStudent = styled.button`
-  background: transparent;
-  border: 1px solid #000;
-  border-radius: 30px;
-  padding: 7px 30px;
-  transition: all 0.4s ease;
-  :hover {
-    box-shadow: 0px 9px 45px #0e996d40;
-    color: #fff;
-    cursor: pointer;
   }
 `;
 
@@ -155,9 +145,6 @@ function MainMenu({ ScreenWidth, ScreenHeight }) {
               <a>
                 contato
               </a>
-            </li>
-            <li>
-              
             </li>
           </ul>
         )}

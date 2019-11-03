@@ -11,6 +11,9 @@ const Main = styled.div`
   @media (max-width: 900px) {
     flex-direction: column;
   }
+  @media (max-width: 375px){
+    height: 120vh;
+  }
 `;
 
 const PhotoDiv = styled.div`
@@ -20,7 +23,6 @@ const PhotoDiv = styled.div`
   @media (max-width: 900px) {
     align-self: center;
     height: 100vh;
-
     width: 85%;
   }
 `;
@@ -36,11 +38,13 @@ const DescriptionDiv = styled.div`
     display: flex;
     flex-direction: column;
 
-    li1{
-      font-size: 20px;
+    p{
+      font-size: 30px;
+      font-weight: 900;
+      font-family: 'Montserrat';
+      color: #282828;
     }
     li2{
-      margin-top: 15px;
       text-align: justify;
       text-justify: auto;
     }
@@ -58,7 +62,7 @@ export default function index() {
           <PhotoDiv/>
           <DescriptionDiv>
             <ul>
-              <li1>Quem Somos</li1>
+              <p>Quem Somos</p>
               <li2>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacinia justo sit amet quam porta tempor. Etiam eros sem, mollis eget risus eget, viverra gravida orci. Sed non arcu id nulla fringilla ultricies. Ut aliquet convallis cursus. Pellentesque tincidunt, libero ut volutpat gravida, tellus velit porta lacus, vitae pellentesque urna erat ac eros. In quis ante fermentum, ullamcorper velit ut, viverra risus. Cras volutpat justo tellus, in convallis augue sodales at. Cras varius semper metus laoreet aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus luctus convallis metus. Cras et elit eu diam rutrum iaculis. Morbi malesuada efficitur justo a tincidunt.
               </li2>
