@@ -6,22 +6,22 @@ const Main = styled.div`
   height: 75vh;
   margin-top: 10vh;
   display: flex;
-  align-itens: center;
   justify-content: center;
   @media (max-width: 900px) {
     flex-direction: column;
+    height: 60vh;
   }
-  @media (max-width: 375px){
-    height: 120vh;
+  @media (max-width: 500px){
+    height: 110vh;
   }
 `;
 
 const PhotoDiv = styled.img`
   width: 40%;
-  height: 70%;
+  height: 60%;
   @media (max-width: 900px) {
     align-self: center;
-    height: 100vh;
+    height: 20vh;
     width: 85%;
   }
 `;
@@ -31,7 +31,7 @@ const DescriptionDiv = styled.div`
   height: 80%;
   padding: 25px 0;
   display: flex;
-  align-itens: center;
+  /* align-items: center; */
   justify-content: center;
   ul{
     display: flex;

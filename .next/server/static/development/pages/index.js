@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -118,7 +118,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\GitHub-Projects\\Desafio_GM5\\components\\Banner\\index.js";
+var _jsxFileName = "E:\\github projects\\Desafio_GM5-new-\\components\\Banner\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -153,7 +153,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\GitHub-Projects\\Desafio_GM5\\components\\Common\\MainFooter.js";
+var _jsxFileName = "E:\\github projects\\Desafio_GM5-new-\\components\\Common\\MainFooter.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -506,7 +506,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\GitHub-Projects\\Desafio_GM5\\components\\Common\\MainMenu.js";
+var _jsxFileName = "E:\\github projects\\Desafio_GM5-new-\\components\\Common\\MainMenu.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 
 
@@ -723,7 +723,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\GitHub-Projects\\Desafio_GM5\\components\\Links\\index.js";
+var _jsxFileName = "E:\\github projects\\Desafio_GM5-new-\\components\\Links\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -861,7 +861,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _OurServices__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../OurServices */ "./components/OurServices/index.js");
 /* harmony import */ var _Links__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Links */ "./components/Links/index.js");
-var _jsxFileName = "C:\\GitHub-Projects\\Desafio_GM5\\components\\OtherInformations\\index.js";
+var _jsxFileName = "E:\\github projects\\Desafio_GM5-new-\\components\\OtherInformations\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -909,7 +909,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\GitHub-Projects\\Desafio_GM5\\components\\OurServices\\index.js";
+var _jsxFileName = "E:\\github projects\\Desafio_GM5-new-\\components\\OurServices\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1023,22 +1023,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\GitHub-Projects\\Desafio_GM5\\components\\WhoWeAre\\index.js";
+var _jsxFileName = "E:\\github projects\\Desafio_GM5-new-\\components\\WhoWeAre\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const Main = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "WhoWeAre__Main",
   componentId: "ctd8j-0"
-})(["width:100%;height:75vh;margin-top:10vh;display:flex;align-itens:center;justify-content:center;@media (max-width:900px){flex-direction:column;}@media (max-width:375px){height:120vh;}"]);
+})(["width:100%;height:75vh;margin-top:10vh;display:flex;justify-content:center;@media (max-width:900px){flex-direction:column;height:60vh;}@media (max-width:500px){height:110vh;}"]);
 const PhotoDiv = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.img.withConfig({
   displayName: "WhoWeAre__PhotoDiv",
   componentId: "ctd8j-1"
-})(["width:40%;height:70%;@media (max-width:900px){align-self:center;height:100vh;width:85%;}"]);
+})(["width:40%;height:60%;@media (max-width:900px){align-self:center;height:20vh;width:85%;}"]);
 const DescriptionDiv = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "WhoWeAre__DescriptionDiv",
   componentId: "ctd8j-2"
-})(["width:35%;height:80%;padding:25px 0;display:flex;align-itens:center;justify-content:center;ul{display:flex;flex-direction:column;p{font-size:30px;font-weight:900;font-family:'Montserrat';color:#282828;}li2{text-align:justify;text-justify:auto;}}@media (max-width:900px){width:90%;}"]);
+})(["width:35%;height:80%;padding:25px 0;display:flex;justify-content:center;ul{display:flex;flex-direction:column;p{font-size:30px;font-weight:900;font-family:'Montserrat';color:#282828;}li2{text-align:justify;text-justify:auto;}}@media (max-width:900px){width:90%;}"]);
 function index() {
   return __jsx(Main, {
     __source: {
@@ -1261,7 +1261,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Banner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Banner */ "./components/Banner/index.js");
 /* harmony import */ var _components_WhoWeAre__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/WhoWeAre */ "./components/WhoWeAre/index.js");
 /* harmony import */ var _components_OtherInformations__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/OtherInformations */ "./components/OtherInformations/index.js");
-var _jsxFileName = "C:\\GitHub-Projects\\Desafio_GM5\\pages\\index.js";
+var _jsxFileName = "E:\\github projects\\Desafio_GM5-new-\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1312,14 +1312,14 @@ function index() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\GitHub-Projects\Desafio_GM5\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! E:\github projects\Desafio_GM5-new-\pages\index.js */"./pages/index.js");
 
 
 /***/ }),
