@@ -41,9 +41,15 @@ const MainColumn = styled.div`
       font-family: Montserrat;
       font-weight: bold;
     }
-    a1{
+    a:nth-child(1){
       cursor: pointer;
-      color: purple;
+      color: #775a97;
+      margin: 5px 0;
+      font-family: Montserrat;
+      font-weight: bold;
+    }
+    a:nth-child(3){
+      color: #775a97;
       margin: 5px 0;
       font-family: Montserrat;
       font-weight: bold;
@@ -75,12 +81,19 @@ const MainColumnMobile = styled.div`
         font-family: Montserrat;
         font-weight: bold;
       }
-      a1{
-        color: purple;
+      a:nth-child(1){
+        color: #775a97;
         margin: 5px 0;
         font-family: Montserrat;
         font-weight: bold;
       }
+      a:nth-child(3){
+        color: #775a97;
+        margin: 5px 0;
+        font-family: Montserrat;
+        font-weight: bold;
+      }
+      
     }
   }
 `;
@@ -116,9 +129,9 @@ export default function MainFooter() {
         <FooterContent>
           <MainColumn>
             <ul>
-              <a1>
+              <a>
                 home
-              </a1>
+              </a>
               <a>
                 quem somos
               </a>
@@ -132,15 +145,15 @@ export default function MainFooter() {
           </MainColumn>
           <MainColumn>
             <ul>
-              <a1>
+              <a>
                 endereço
-              </a1>
+              </a>
               <a>
                 nullam lacinia justo sit amet quam porta tempor
               </a>
-              <a1>
+              <a>
                 contato
-              </a1>
+              </a>
               <a>
                 contato@gm5.com.br
               </a>
@@ -148,7 +161,7 @@ export default function MainFooter() {
           </MainColumn>
           <MainColumn>
             <ul>
-              <a1>redes sociais</a1>
+              <a>redes sociais</a>
             </ul>
             <SocialIcons>
               <a>
@@ -170,21 +183,21 @@ export default function MainFooter() {
           </MainColumn>
           <MainColumnMobile>
           <ul>
-              <a1>
+              <a>
                 endereço
-              </a1>
+              </a>
               <a>
                 nullam lacinia justo sit amet quam porta tempor
               </a>
-              <a1>
+              <a>
                 contato
-              </a1>
+              </a>
               <a>
                 contato@gm5.com.br
               </a>
-              <a1>
+              <a>
                 redes sociais
-              </a1>
+              </a>
             </ul>
             <SocialIcons>
               <a>
