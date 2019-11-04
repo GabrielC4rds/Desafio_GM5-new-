@@ -57,17 +57,16 @@ const Item = styled.div`
    : hover{
     transform: scale(1.1);
   }
-  p1{
+  p:nth-child(1){
       font-size: 23px;
       color: #0199b0;
       font-weight: bold;
       font-family: Montserrat;
       font-weight: bold;
   }  
-  p2{
+  p:nth-child(2){
       font-size: 12px;
       color: #282828;
-      margin-top: 5px;
       margin-left: 5px;
       font-family: Montserrat;
   } 
@@ -87,20 +86,20 @@ export default function index() {
             <Title><p>LINKS</p></Title>
             <List>
                 <Item>
-                    <p1>1.</p1>
-                    <p2>Lorem ipsum dolor sit amet</p2>
+                    <p>1.</p>
+                    <p>Lorem ipsum dolor sit amet</p>
                 </Item>
                 <Item>
-                    <p1>2.</p1>
-                    <p2>Lorem ipsum dolor sit amet</p2>
+                    <p>2.</p>
+                    <p>Lorem ipsum dolor sit amet</p>
                 </Item>
                 <Item>
-                    <p1>3.</p1>
-                    <p2>Lorem ipsum dolor sit amet</p2>
+                    <p>3.</p>
+                    <p>Lorem ipsum dolor sit amet</p>
                 </Item>
                 <Item>
-                    <p1>4.</p1>
-                    <p2>Lorem ipsum dolor sit amet</p2>
+                    <p>4.</p>
+                    <p>Lorem ipsum dolor sit amet</p>
                 </Item>
             </List>
         </Main>

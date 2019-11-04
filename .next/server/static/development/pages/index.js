@@ -88,10 +88,21 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
+
+/***/ "./assets/servico.json":
+/*!*****************************!*\
+  !*** ./assets/servico.json ***!
+  \*****************************/
+/*! exports provided: Servico, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"Servico\":[{\"Titulo\":\"Sites\",\"Subtitulo\":\"Lorem ipsum dolor sit amet\",\"Imagem\":\"servico-1.png\",\"Descricao\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis tempor tortor at auctor. Etiam ac dolor arcu. Etiam maximus consectetur nulla, quis tincidunt quam aliquet ut.\",\"URL\":\"https://www.google.com\",\"Posicao\":\"1\"},{\"Titulo\":\"Apps\",\"Subtitulo\":\"Phasellus consequat, lorem\",\"Imagem\":\"servico-2.png\",\"Descricao\":\"Phasellus consequat, lorem id finibus posuere, ex nisi eleifend mi, non tincidunt quam urna sed neque. Vivamus eget tristique nulla, in aliquam metus.\",\"URL\":\"https://www.bing.com\",\"Posicao\":\"2\"},{\"Titulo\":\"Mkt digital\",\"Subtitulo\":\"Cras sit amet nunc eu libero\",\"Imagem\":\"servico-3.png\",\"Descricao\":\"Cras sit amet nunc eu libero efficitur malesuada eu sed purus. Curabitur diam felis, tempus id orci nec, vulputate pulvinar velit. Fusce molestie ultrices nulla vel semper.\",\"URL\":\"https://duckduckgo.com\",\"Posicao\":\"3\"}]}");
+
+/***/ }),
 
 /***/ "./components/Banner/index.js":
 /*!************************************!*\
@@ -731,102 +742,102 @@ const List = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withCo
 const Item = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Links__Item",
   componentId: "sc-1xiyu81-3"
-})(["border-bottom:1px solid #939393;display:flex;justify-content:flex-start;align-items:center;height:25%;width:100%;cursor:pointer;transition .5s ease;:hover{transform:scale(1.1);}p1{font-size:23px;color:#0199b0;font-weight:bold;font-family:Montserrat;font-weight:bold;}p2{font-size:12px;color:#282828;margin-top:5px;margin-left:5px;font-family:Montserrat;}@media (max-width:900px){padding:0 20px;height:20%;width:70%;display:flex;align-items:center;flex-direction:row;}"]);
+})(["border-bottom:1px solid #939393;display:flex;justify-content:flex-start;align-items:center;height:25%;width:100%;cursor:pointer;transition .5s ease;:hover{transform:scale(1.1);}p:nth-child(1){font-size:23px;color:#0199b0;font-weight:bold;font-family:Montserrat;font-weight:bold;}p:nth-child(2){font-size:12px;color:#282828;margin-left:5px;font-family:Montserrat;}@media (max-width:900px){padding:0 20px;height:20%;width:70%;display:flex;align-items:center;flex-direction:row;}"]);
 function index() {
   return __jsx(Main, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 85
     },
     __self: this
   }, __jsx(Title, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 86
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 86
     },
     __self: this
   }, "LINKS")), __jsx(List, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 87
     },
     __self: this
   }, __jsx(Item, {
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 89
     },
     __self: this
-  }, __jsx("p1", {
+  }, "1."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 90
     },
     __self: this
-  }, "1."), __jsx("p2", {
+  }, "Lorem ipsum dolor sit amet")), __jsx(Item, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 92
     },
     __self: this
-  }, "Lorem ipsum dolor sit amet")), __jsx(Item, {
+  }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 93
     },
     __self: this
-  }, __jsx("p1", {
+  }, "2."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 94
     },
     __self: this
-  }, "2."), __jsx("p2", {
+  }, "Lorem ipsum dolor sit amet")), __jsx(Item, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 96
     },
     __self: this
-  }, "Lorem ipsum dolor sit amet")), __jsx(Item, {
+  }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 97
     },
     __self: this
-  }, __jsx("p1", {
+  }, "3."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 98
     },
     __self: this
-  }, "3."), __jsx("p2", {
+  }, "Lorem ipsum dolor sit amet")), __jsx(Item, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 100
     },
     __self: this
-  }, "Lorem ipsum dolor sit amet")), __jsx(Item, {
+  }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 101
     },
     __self: this
-  }, __jsx("p1", {
+  }, "4."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 102
-    },
-    __self: this
-  }, "4."), __jsx("p2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 103
     },
     __self: this
   }, "Lorem ipsum dolor sit amet"))));
@@ -902,6 +913,9 @@ var _jsxFileName = "C:\\GitHub-Projects\\Desafio_GM5\\components\\OurServices\\i
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
+
+let json = __webpack_require__(/*! ../../assets/servico.json */ "./assets/servico.json");
+
 const Main = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "OurServices__Main",
   componentId: "xf3luz-0"
@@ -914,160 +928,83 @@ const Blocks = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.with
   displayName: "OurServices__Blocks",
   componentId: "xf3luz-2"
 })(["height:80%;width:100%;display:flex;flex-direction:row;justify-content:space-between;@media (max-width:750px){flex-direction:column;height:500vh;}"]);
-const Block1 = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
-  displayName: "OurServices__Block1",
+const Block = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "OurServices__Block",
   componentId: "xf3luz-3"
 })(["width:30%;height:100%;@media (max-width:900px){flex-direction:column;width:100%;}@media(max-width:375px){height:60vh;}"]);
-const PhotoBlock1 = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
-  displayName: "OurServices__PhotoBlock1",
+const PhotoBlock = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.img.withConfig({
+  displayName: "OurServices__PhotoBlock",
   componentId: "xf3luz-4"
-})(["background:#592f83;width:70%;height:50%;@media (max-width:900px){flex-direction:column;width:100%;height:30vh;}"]);
-const PhotoBlock2 = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
-  displayName: "OurServices__PhotoBlock2",
-  componentId: "xf3luz-5"
-})(["background:#f5a400;width:70%;height:50%;@media (max-width:900px){flex-direction:column;width:100%;height:30vh;}"]);
-const PhotoBlock3 = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
-  displayName: "OurServices__PhotoBlock3",
-  componentId: "xf3luz-6"
-})(["background:#ec6534;width:70%;height:50%;@media (max-width:900px){flex-direction:column;width:100%;height:30vh;}"]);
+})(["width:70%;height:50%;@media (max-width:900px){flex-direction:column;width:100%;height:30vh;}"]);
 const BlockTexts = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "OurServices__BlockTexts",
-  componentId: "xf3luz-7"
-})(["width:100%;height:50%;padding:15px 0;display:flex;flex-direction:column;p1{margin:1px 0;font-size:15px;font-family:Montserrat;font-weight:bold;}p2{margin:1px 0;font-size:12px;}p3{margin:1px 0;font-size:10px;text-align:justify;text-justify:auto;font-weight:bold;font-family:Montserrat;}@media (max-width:900px){align-items:center;height:20vh;p3{text-align:justify;text-align-last:center;font-family:Montserrat;}}"]);
+  componentId: "xf3luz-5"
+})(["width:100%;height:50%;padding:15px 0;display:flex;flex-direction:column;p:nth-child(1){margin:1px 0;font-size:15px;font-family:Montserrat;font-weight:bold;}p:nth-child(2){margin:1px 0;font-size:12px;}p:nth-child(3){margin:1px 0;font-size:10px;text-align:justify;text-justify:auto;font-weight:bold;font-family:Montserrat;}@media (max-width:900px){align-items:center;height:20vh;p:nth-child(3){text-align:justify;text-align-last:center;font-family:Montserrat;}}"]);
 function index() {
   return __jsx(Main, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132
+      lineNumber: 109
     },
     __self: this
   }, __jsx(Title, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 110
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134
+      lineNumber: 111
     },
     __self: this
   }, "NOSSOS SERVI\xC7OS")), __jsx(Blocks, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136
+      lineNumber: 113
     },
     __self: this
-  }, __jsx(Block1, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 137
-    },
-    __self: this
-  }, __jsx(PhotoBlock1, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 138
-    },
-    __self: this
-  }), __jsx(BlockTexts, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 139
-    },
-    __self: this
-  }, __jsx("p1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 140
-    },
-    __self: this
-  }, "SITES"), __jsx("p2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 141
-    },
-    __self: this
-  }, "Lorem ipsum dolor sit amet"), __jsx("p3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 142
-    },
-    __self: this
-  }, "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."))), __jsx(Block1, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 147
-    },
-    __self: this
-  }, __jsx(PhotoBlock2, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 148
-    },
-    __self: this
-  }), __jsx(BlockTexts, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 149
-    },
-    __self: this
-  }, __jsx("p1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 150
-    },
-    __self: this
-  }, "APPS"), __jsx("p2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 151
-    },
-    __self: this
-  }, "Lorem ipsum dolor sit amet"), __jsx("p3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 152
-    },
-    __self: this
-  }, "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."))), __jsx(Block1, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 157
-    },
-    __self: this
-  }, __jsx(PhotoBlock3, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 158
-    },
-    __self: this
-  }), __jsx(BlockTexts, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 159
-    },
-    __self: this
-  }, __jsx("p1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 160
-    },
-    __self: this
-  }, "MKT DIGITAL"), __jsx("p2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 161
-    },
-    __self: this
-  }, "Lorem ipsum dolor sit amet"), __jsx("p3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 162
-    },
-    __self: this
-  }, "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.")))));
+  }, json.Servico.map(res => {
+    return __jsx(Block, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 116
+      },
+      __self: this
+    }, __jsx(PhotoBlock, {
+      src: `./static/img/${res.Imagem}`,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 117
+      },
+      __self: this
+    }), __jsx(BlockTexts, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 118
+      },
+      __self: this
+    }, __jsx("p", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 119
+      },
+      __self: this
+    }, res.Titulo), __jsx("p", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 120
+      },
+      __self: this
+    }, res.Subtitulo), __jsx("p", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 121
+      },
+      __self: this
+    }, res.Descricao)));
+  })));
 }
 
 /***/ }),
@@ -1094,10 +1031,10 @@ const Main = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withCo
   displayName: "WhoWeAre__Main",
   componentId: "ctd8j-0"
 })(["width:100%;height:75vh;margin-top:10vh;display:flex;align-itens:center;justify-content:center;@media (max-width:900px){flex-direction:column;}@media (max-width:375px){height:120vh;}"]);
-const PhotoDiv = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+const PhotoDiv = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.img.withConfig({
   displayName: "WhoWeAre__PhotoDiv",
   componentId: "ctd8j-1"
-})(["width:40%;height:70%;background:#0199b0;@media (max-width:900px){align-self:center;height:100vh;width:85%;}"]);
+})(["width:40%;height:70%;@media (max-width:900px){align-self:center;height:100vh;width:85%;}"]);
 const DescriptionDiv = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "WhoWeAre__DescriptionDiv",
   componentId: "ctd8j-2"
@@ -1106,37 +1043,38 @@ function index() {
   return __jsx(Main, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 60
     },
     __self: this
   }, __jsx(PhotoDiv, {
+    src: "./static/img/quem-somos.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 61
     },
     __self: this
   }), __jsx(DescriptionDiv, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 62
     },
     __self: this
   }, __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 63
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 64
     },
     __self: this
   }, "Quem Somos"), __jsx("li2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 65
     },
     __self: this
   }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacinia justo sit amet quam porta tempor. Etiam eros sem, mollis eget risus eget, viverra gravida orci. Sed non arcu id nulla fringilla ultricies. Ut aliquet convallis cursus. Pellentesque tincidunt, libero ut volutpat gravida, tellus velit porta lacus, vitae pellentesque urna erat ac eros. In quis ante fermentum, ullamcorper velit ut, viverra risus. Cras volutpat justo tellus, in convallis augue sodales at. Cras varius semper metus laoreet aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus luctus convallis metus. Cras et elit eu diam rutrum iaculis. Morbi malesuada efficitur justo a tincidunt."))));
@@ -1374,7 +1312,7 @@ function index() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

@@ -16,10 +16,9 @@ const Main = styled.div`
   }
 `;
 
-const PhotoDiv = styled.div`
+const PhotoDiv = styled.img`
   width: 40%;
   height: 70%;
-  background: #0199b0;
   @media (max-width: 900px) {
     align-self: center;
     height: 100vh;
@@ -59,7 +58,7 @@ const DescriptionDiv = styled.div`
 export default function index() {
     return (
         <Main>
-          <PhotoDiv/>
+          <PhotoDiv src="./static/img/quem-somos.png"/>
           <DescriptionDiv>
             <ul>
               <p>Quem Somos</p>

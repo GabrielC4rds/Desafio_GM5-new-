@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+let json = require('../../assets/servico.json');
 
 const Main = styled.div`
     height: 100%;
@@ -41,7 +42,7 @@ const Blocks = styled.div`
     }
 `;
 
-const Block1 = styled.div`
+const Block = styled.div`
   width: 30%;
   height: 100%;
   @media (max-width: 900px) {
@@ -53,38 +54,13 @@ const Block1 = styled.div`
   }
 `;
 
-const PhotoBlock1 = styled.div`
-  background: #592f83;
+const PhotoBlock = styled.img`
   width: 70%;
   height: 50%;
   @media (max-width: 900px) {
     flex-direction: column;
     width: 100%;
     height: 30vh;
-  }
-`;
-
-const PhotoBlock2 = styled.div`
-  background: #f5a400;  
-  width: 70%;
-  height: 50%;
-  @media (max-width: 900px) {
-    flex-direction: column;
-    width: 100%;
-    height: 30vh;
-
-  }
-`;
-
-const PhotoBlock3 = styled.div`
-  background: #ec6534;
-  width: 70%;
-  height: 50%;
-  @media (max-width: 900px) {
-    flex-direction: column;
-    width: 100%;
-    height: 30vh;
-
   }
 `;
 
@@ -95,19 +71,19 @@ const BlockTexts = styled.div`
     display: flex;
     flex-direction: column;
 
-    p1{
+    p:nth-child(1){
       margin: 1px 0;
       font-size: 15px;
       font-family: Montserrat;
       font-weight: bold;
 
     }
-    p2{
+    p:nth-child(2){
       margin: 1px 0;
 
       font-size: 12px;
     }
-    p3{
+    p:nth-child(3){
       margin: 1px 0;
       font-size: 10px;
       text-align: justify;
@@ -119,7 +95,7 @@ const BlockTexts = styled.div`
       align-items: center;
       height: 20vh;
 
-      p3{
+      p:nth-child(3){
         text-align: justify;
         text-align-last: center;
         font-family: Montserrat;
@@ -128,44 +104,30 @@ const BlockTexts = styled.div`
 `;
 
 export default function index() {
+
   return (
     <Main>
       <Title>
         <p>NOSSOS SERVIÇOS</p>
       </Title>
       <Blocks>
-        <Block1>
-          <PhotoBlock1 />
-          <BlockTexts>
-            <p1>SITES</p1>
-            <p2>Lorem ipsum dolor sit amet</p2>
-            <p3>
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p3>
-          </BlockTexts>
-        </Block1>
-        <Block1>
-           <PhotoBlock2 />
-            <BlockTexts>
-            <p1>APPS</p1>
-            <p2>Lorem ipsum dolor sit amet</p2>
-            <p3>
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p3>
-            </BlockTexts>
-        </Block1>
-        <Block1>
-          <PhotoBlock3 />
-          <BlockTexts>
-            <p1>MKT DIGITAL</p1>
-            <p2>Lorem ipsum dolor sit amet</p2>
-            <p3>
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p3>
-          </BlockTexts>
-        </Block1> 
-        
+        {json.Servico.map(res => {
+          return (
+            <Block>
+              <PhotoBlock src={`./static/img/${res.Imagem}`}/>
+              <BlockTexts >
+                <p>{res.Titulo}</p>
+                <p>{res.Subtitulo}</p>
+                <p>
+                  {res.Descricao}
+                </p>
+              </BlockTexts>
+            </Block>
+          )
+        })
+        }
       </Blocks>
     </Main>
   )
+
 }
